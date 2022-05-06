@@ -6,112 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
+  <!--###################################################-->
+
+  <!-- NAME -->
   <body>
     <header>
       <div id="start"></div>
       <h1>Georg Juranek</h1>
     </header>
 
-    <p>
-      ________________________________________________________________________
-    </p>
-
-    <!-- <p> says "Hi" to you</p> -->
-
-    <div>
+    <!-- NAVIGATION AM ANFANG -->
+    <nav class="flexnav">
       <ol>
         <li><a href="#wip"> WIP</a></li>
-        <li><a href="#art1">"ART"</a></li>
-        <li><a href="#art2"> ART</a></li>
-        <li><a href="#facts"> FACTS</a></li>
+        <li><a href="#art"> ART</a></li>
         <li><a href="#bio"> BIO</a></li>
         <li><a href="#bye"> BYE</a></li>
-        <!--
-        <li><a href=""> PROJECTS</a></li>
-        <li><a href=""> RANDOM FACTS</a></li>
-        <li><a href=""> COLLABS & FEATURES</a></li>
-        <li><a href=""> BYE</a></li>-->
       </ol>
-    </div>
+    </nav>
 
-    <p>
-      ________________________________________________________________________
-    </p>
+    <!--###################################################-->
 
+    <!-- WORK IN PROGRESS -->
     <section>
       <div id="wip"></div>
       <h2>WIP</h2>
-      <p>This Website is a "Work in Progress". The first I ever made.</p>
-      <p>Wanna go <a href="#start">back</a> or <a href="#art1">further</a> ?</p>
+
+      <img
+        class="imagetransform"
+        src="https://cdn-icons.flaticon.com/png/512/3093/premium/3093177.png?token=exp=1651829014~hmac=65a844581118fd7dd70bd1ac8b53fd9d"
+        alt="I am not that good rightnow"
+      />
+
+      <p class="sectioninside">
+        This Website is a "Work in Progress". The first I ever made.
+      </p>
     </section>
 
+    <!-- A R T -->
     <section>
-      <div id="art1"></div>
-      <h2>"ART"</h2>
-      <p>Right Section, but no art avaiable right now. Sorry.</p>
-      <p>Wanna go <a href="#start">back</a> or <a href="#art2">further</a> ?</p>
-    </section>
-
-    <section>
-      <div id="art2"></div>
+      <div id="art"></div>
       <h2>ART</h2>
-      <small>(this time for real)</small>
-      <p>
-        Did you ever asked yourself where my github image comes from? Here is
-        the ->
-        <a
-          href="https://backend.artreview.com/wp-content/uploads/2014/06/70906b8332cb3a8507fe7d9dbd663bdc_0.jpg"
-          >Link</a
-        >
-        !
-      </p>
-      <p>
-        Wanna go <a href="#start">back</a> or <a href="#facts">further</a> ?
+      <p class="sectioninside">
+        Right Section, but no art avaiable right now. Sorry.
       </p>
     </section>
 
-    <section>
-      <div id="facts"></div>
-      <h2>FACTS</h2>
-      <p>Don't be scared.</p>
-      <p>Wanna go <a href="#start">back</a> or <a href="#bio">further</a> ?</p>
-    </section>
-
+    <!-- BIOGRAFIE -->
     <section>
       <div id="bio"></div>
       <h2>BIO</h2>
-      <p>
-        <!--<ul>
-          <li>Georg Juranek *31.03.1992 in Hannover (Germany)</li>  
-          <li>Was in school, finished in 2011</li> 
-          <li>Did Artschool 2013-2021</li> 
-          <li>Currently programming...</li> 
-        </ul>-->
-      </p>
-      <p>
-        Wanna go <a href="#start">back</a> or say <a href="#bye">goodbye</a> ?
+      <p class="sectioninside">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+        inventore ad ut, laudantium eveniet facere voluptatibus enim
+        accusantium, optio possimus, voluptate ipsa aspernatur exercitationem
+        porro veniam non hic dicta officia!
       </p>
     </section>
 
+    <!-- GOODBYE -->
     <section>
       <div id="bye"></div>
       <h2>BYE</h2>
-      <p>
+      <p class="sectioninside">
         Goodbye and thanks for visting, here is the
-        <a href="https://google.com">exit</a>.
+        <a href="https://google.com">_exit</a>.
       </p>
-      <p>If you dont want to leave, please click <a href="#start">here</a> .</p>
     </section>
 
+    <!-- ((C)) -->
     <footer>
       <small>(c) copyright all by myself</small>
     </footer>
   </body>
-  <!--<footer>
-      All artworks and facts belong to their owner (c) Georg Juranek, thx for
-      stepping by folks!
-    </footer>-->
 </html>
