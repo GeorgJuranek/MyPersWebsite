@@ -9,7 +9,7 @@ body {
   /*Helvetica, sans-serif;*/
 }
 
-/*HhHhHhHhHhHhHhHhHhH*/
+/*HhHhHhHhHhHhHhHhHhH && a*/
 
 h1 {
   background-color: black;
@@ -22,7 +22,16 @@ h2 {
   text-decoration: underline;
 }
 
+h3 {
+  text-align: stretch;
+}
+
+a {
+  color: blue;
+}
+
 /*NAVIGATION zu Beginn*/
+
 .flexnav {
   border: solid;
   border-left: 0em;
@@ -52,6 +61,10 @@ section {
 
   /*background:white*/
 }
+
+/* STEUERT DIE FLEXBOX DER ABSCHNITTE 
+UND VERERBT DISPLAY*/
+
 .sectioninside {
   display: flex;
 
@@ -60,18 +73,51 @@ section {
   margin: 2em 1em;
 }
 
-a {
-  color: blue;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-}
-
 .imagetransform {
   width: 40%;
   height: 40%;
   margin-left: 30%;
   margin-right: 50%;
+}
+
+.imagetransform2 {
+  width: 10%;
+  height: 10%;
+
+  flex-direction: row;
+  align-items: flex-end;
+
+  /*
+  margin-left: 30%;
+  margin-right: 50%;
+  */
+}
+
+.imagetransform3 {
+  width: 10%;
+  height: 10%;
+
+  flex-direction: row-reverse;
+
+  /*
+    align-items: center;
+  */
+}
+
+.imagetransformexit {
+  width: 10%;
+  height: 10%;
+
+  /* 
+  gap: 1rem; 
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;  
+  */
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
 }
