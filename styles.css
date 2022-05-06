@@ -130,3 +130,9 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.sectionsflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
