@@ -1,18 +1,18 @@
 * {
-  background-color: black;
+  xbackground-color: black;
   color: white;
 }
 
 body {
   font-family: "Koulen", cursive;
   font-weight: 100;
+  background-color: black;
   /*Helvetica, sans-serif;*/
 }
 
 /*HhHhHhHhHhHhHhHhHhH && a*/
 
 h1 {
-  background-color: black;
   color: whitesmoke;
   text-align: center;
 }
@@ -30,6 +30,13 @@ a {
   color: blue;
 }
 
+ol {
+  color: white;
+  list-style-position: outside;
+  list-style-type: upper-roman;
+
+  padding-left: 2em;
+}
 /*NAVIGATION zu Beginn*/
 
 .flexnav {
@@ -44,14 +51,6 @@ a {
   justify-content: space-around;
 }
 
-ol {
-  color: white;
-  list-style-position: outside;
-  list-style-type: upper-roman;
-
-  padding-left: 2em;
-}
-
 section {
   margin: 100px 10px;
 
@@ -62,15 +61,22 @@ section {
   /*background:white*/
 }
 
-/* STEUERT DIE FLEXBOX DER ABSCHNITTE 
-UND VERERBT DISPLAY*/
+.decoration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  padding-top: 50px;
+  margin-top: -50px;
+}
 
 .sectioninside {
-  display: flex;
-
   align-items: center;
   justify-content: center;
   margin: 2em 1em;
+
+  /*  */
 }
 
 .imagetransform {
@@ -83,38 +89,41 @@ UND VERERBT DISPLAY*/
 .imagetransform2 {
   width: 10%;
   height: 10%;
-
-  flex-direction: row;
-  align-items: flex-end;
-
-  /*
-  margin-left: 30%;
-  margin-right: 50%;
-  */
 }
 
+/*
+.imagetransform2 {
+  width: 10%;
+  height: 10%;
+
+  
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 30%;
+  margin-right: 50%;
+  
+}
 .imagetransform3 {
   width: 10%;
   height: 10%;
 
-  flex-direction: row-reverse;
-
-  /*
+  
+    flex-direction: row-reverse;
     align-items: center;
-  */
+  
 }
-
 .imagetransformexit {
   width: 10%;
   height: 10%;
 
-  /* 
+  /
   gap: 1rem; 
   justify-content: flex-end;
   display: flex;
   align-items: flex-end;  
-  */
+  
 }
+*/
 
 /* FOOTER */
 footer {
