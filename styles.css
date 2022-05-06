@@ -74,7 +74,6 @@ section {
   align-items: center;
   justify-content: center;
   margin: 2em 1em;
-
   /*  */
 }
 
@@ -90,40 +89,6 @@ section {
   height: 10%;
 }
 
-/*
-.imagetransform2 {
-  width: 10%;
-  height: 10%;
-
-  
-  flex-direction: row;
-  align-items: flex-end;
-  margin-left: 30%;
-  margin-right: 50%;
-  
-}
-.imagetransform3 {
-  width: 10%;
-  height: 10%;
-
-  
-    flex-direction: row-reverse;
-    align-items: center;
-  
-}
-.imagetransformexit {
-  width: 10%;
-  height: 10%;
-
-  /
-  gap: 1rem; 
-  justify-content: flex-end;
-  display: flex;
-  align-items: flex-end;  
-  
-}
-*/
-
 /* FOOTER */
 footer {
   display: flex;
@@ -134,4 +99,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.justCenter {
+  justify-content: space-between;
 }
