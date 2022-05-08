@@ -113,6 +113,10 @@ li {
   margin-top: 50px;
 }
 
+.addpaddingalot {
+  margin-top: 100px;
+}
+
 .addpaddingbottom {
   margin-bottom: 30px;
 }
@@ -125,4 +129,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sprungmarke {
+  padding-top: 75px;
+  margin-top: -75px;
+}
+
+.headerflex {
+  display: flex;
+  gap: 1em;
+}
+.topheaderbox {
+  width: 200px;
+  justify-content: flex-end;
 }
