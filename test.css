@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(153, 51, 104);
+  background-image: url(https://media0.giphy.com/media/3ohhwhHdgMUUGQ97he/giphy.gif?cid=ecf05e47i6ibse0nfaw7gdggsta2i6r4ca158cgldxcocaly&rid=giphy.gif&ct=g);
+  margin: 2rem;
+}
+
+h1 {
+  border-bottom: 5rem;
+
+  text-shadow: 0 0 10px white;
+}
+
+section {
+  background-color: grey;
+  border: solid;
+  border-color: black;
+}
+
+li {
+  background-color: wheat;
+  border: solid;
+  border-color: black;
+}
+
+.li2 {
+  background-color: rgb(241, 239, 141);
+  list-style-position: inside;
+}
+
+.listnone {
+  list-style: none;
+}
+
+.start {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sectionblue {
+  background-color: aqua;
+  border: solid;
+  border-color: blue;
+  height: 2em;
+
+  border-right-width: 5px;
+  border-bottom-width: 8px;
+}
+
+.sectionred {
+  background-color: orange;
+  border: solid;
+  border-color: orangered;
+
+  padding: 5em 1.5em;
+
+  /*max-width: 1em;*/
+
+  box-sizing: content-box;
+  width: 1%;
+
+  /*
+    height: 15em;   
+    width: 5em;
+    */
+}
+
+.anchorC {
+  color: violet;
+  word-break: break-all;
+}
+
+.noUnderlineA {
+  text-decoration: none;
+}
+
+.nestInStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.colorwhite {
+  color: whitesmoke;
+  text-shadow: 0 0 5px white;
+}
+.colorblue {
+  color: blue;
+}
+
+.nestInContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: inherit;
+  gap: 0px;
+}
+
+.contents {
+  width: 10%;
+  height: 10%;
+  margin: 10%;
+
+  justify-content: flex-end;
+}
+
+.imageflex {
+  display: flex;
+}
+
+.addpaddingtop {
+  margin-top: 50px;
+}
+
+.addpaddingbottom {
+  margin-bottom: 30px;
+}
+
+strong {
+  margin-left: -15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
