@@ -4,6 +4,12 @@ body {
   margin: 2rem;
 }
 
+main {
+  display: flex;
+
+  flex-direction: column;
+}
+
 h1 {
   border-bottom: 5rem;
 
@@ -93,11 +99,16 @@ li {
   color: black;
 }
 
+.contentNest {
+  display: flex;
+  gap: 10px;
+}
+
 .nestInContent {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: inherit;
+  /*align-items: inherit;*/
   gap: 0px;
 }
 
